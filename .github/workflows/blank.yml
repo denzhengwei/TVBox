@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.8
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
           owner: 2hacc # fork 的上游仓库 user
           head: TVBox # fork 的上游仓库 branch
           base: TVBox # 本地仓库 branch
